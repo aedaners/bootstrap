@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <style>
+            header, h1, h2, h3 {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            p, ul {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+            }
+            .left-div {
+            width: 30%; 
+            float:left;
+            text-align: center;
+            background-color:rgb(124, 193, 235);
+            }
+            .right-div {
+            width: 70%; 
+            float:right;
+            text-align: center;
+            background-color:rgb(124, 193, 235);
+            }
+            .bottom-div {
+            text-align: left;
+            margin-top: 155px;
+            background-color: white;
+            }
+            .dropdown {
+            margin-left: 25px;
+            }
+            .game_img {
+            margin-left: 35px;
+            width: 25%;
+            height: auto;
+            }
+        </style>
+        <title>Aedan's Personal Bio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <meta charset="UTF-8">
+    </head>
+    <body style="background-color:rgb(124, 193, 235);">
+        <div class="left-div">
+            <img src="aedan.jpg" style="max-width:80%; margin-top: 20px;"/>
+            <h2 style="margin-top: 20px;">About Me</h2><br>
+            <p style="margin-left: 20px; margin-right: 20px;">I am a 20-year old college student studying BS-IT at De La Salle University. I am an ID120 currently taking the CCAPDEV course.</p>
+            <img src="ccs.jpg" style="max-width:80%; margin-top: 20px; margin-bottom: 20px;"/>
+        </div>
+        <div class="right-div">
+            <div style="width: 60%; float:left">
+                <header style="margin-top: 55px;"><h1>Aedan's Personal Bio</h1></header><br>
+            </div>
+            <div style="width: 40%; float:right; text-align: left;">
+                <p>Location: Batangas, Philippines</p>
+                <p>Contact Number: 0912-345-6789</p>
+                <p>Email Address: aedan@gmail.com</p>
+                <p>Website: 
+                    <a href="http://facebook.com" target=“_blank”> Facebook</a>,
+                    <a href="http://twitter.com" target=“_blank”> Twitter</a>
+                </p>
+            </div>
+            <div class="bottom-div">
+                <br><h2>Hobbies and Interests</h2>
+                <ul>
+                    <li>Playing Video Games</li>
+                    <li>Watching Shows and Series</li>
+                </ul><br>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Current Favorite Video Games
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item active" href="https://splatoon.nintendo.com/" target="_blank">Splatoon 3</a></li>
+                      <li><a class="dropdown-item" href="https://www.fallguys.com/en-US" target="_blank">Fall Guys</a></li>
+                      <li><a class="dropdown-item" href="https://playvalorant.com/en-sg/" target="_blank">Valorant</a></li>
+                    </ul>
+                </div><br>
+
+                <div id="carouselExampleInterval" class="carousel-slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="game1.jpg" class="game_img">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                        <img src="game2.jpg" class="game_img">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                        <img src="game3.jpg" class="game_img">
+                    </div>
+                </div><br>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Current Favorite Shows/Series
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item active" href="https://www.netflix.com/ph/title/81518991" target="_blank">Extraordinary Attorney Woo</a></li>
+                      <li><a class="dropdown-item" href="https://www.netflix.com/ph/title/81517188" target="_blank">Alchemy of Souls</a></li>
+                      <li><a class="dropdown-item" href="https://www.netflix.com/ph/title/81590938" target="_blank">2 Good 2 Be True</a></li>
+                    </ul>
+                </div><br>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+</html>
